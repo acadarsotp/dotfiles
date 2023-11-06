@@ -1,3 +1,15 @@
 WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
 WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
 WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | main: Removing snippet `begin` due to error ...local/share/nvim/lazy/LuaSnip/lua/luasnip/nodes/node.lua:602: [LuaSnip Failed]: { "" }
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | main: Removing snippet `begin` due to error ...local/share/nvim/lazy/LuaSnip/lua/luasnip/nodes/node.lua:602: [LuaSnip Failed]: { "" }
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it
+WARN  | vscode-loader: Package /home/acn/.local/share/nvim/lazy/nvim-ufo/package.json does not contribute any snippets, skipping it

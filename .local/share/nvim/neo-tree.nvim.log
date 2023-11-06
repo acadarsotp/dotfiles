@@ -1,0 +1,9 @@
+[WARN  Sun 05 Nov 2023 10:40:06 PM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:305: Cannot close because one of the files is modified. Please save or discard changes.
+[WARN  Sun 05 Nov 2023 11:54:07 PM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:305: Cannot close because one of the files is modified. Please save or discard changes.
+[WARN  Sun 05 Nov 2023 11:54:09 PM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:305: Cannot close because one of the files is modified. Please save or discard changes.
+[WARN  Mon 06 Nov 2023 12:05:48 AM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:305: Cannot close because one of the files is modified. Please save or discard changes.
+[WARN  Mon 06 Nov 2023 12:09:47 AM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:305: Cannot close because one of the files is modified. Please save or discard changes.
+[WARN  Mon 06 Nov 2023 12:10:21 AM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:305: Cannot close because one of the files is modified. Please save or discard changes.
+[ERROR Mon 06 Nov 2023 12:14:10 AM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:705: Error opening file: vim/_editor.lua:0: nvim_exec2(): Vim(edit):E325: ATTENTION
+[WARN  Mon 06 Nov 2023 12:35:23 AM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:305: Cannot close because one of the files is modified. Please save or discard changes.
+[WARN  Mon 06 Nov 2023 01:04:32 AM CET] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:305: Cannot close because one of the files is modified. Please save or discard changes.

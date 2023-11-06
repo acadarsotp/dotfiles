@@ -9,11 +9,19 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
   {
-	"L3MON4D3/LuaSnip",
-	-- follow latest release.
-	version = "v2.0", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
-	-- install jsregexp (optional!).
-	build = "make install_jsregexp"
-  }
+  	"SirVer/ultisnips",
+  	ft = "tex",
+  	config = function()
+      vim.g.UltiSnipsExpandTrigger = '<tab>'
+      vim.g.UltiSnipsJumpForwardTrigger = '<tab>'
+      vim.g.UltiSnipsJumpBackwardTrigger = '<s-tab>'
+      vim.g.UltiSnipsSnippetDirectories = {"~/.config/nvim/lua/user/plugins/UltiSnips/"}
+    end,
+  },
 }
+
+
+
+--vim.g.UltiSnipsSnippetDirectories = ['~/.config/nvim/lua/user/plugins/UltiSnips']                             

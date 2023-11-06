@@ -20,6 +20,12 @@ return {
   -- Set colorscheme to use
   colorscheme = "astrodark",
 
+  -- Spell checking
+  vim.cmd('setlocal spell'),
+  vim.cmd('set spelllang=en_us'),
+  vim.api.nvim_set_keymap('i', '<C-l>', '<c-g>u<Esc>[s1z=`]a<c-g>u', {noremap = true}),
+
+
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,

@@ -17,15 +17,9 @@ return {
     },
   },
 
-
   -- Set colorscheme to use
   colorscheme = "astrodark",
-
-  -- Spell checking
-  vim.cmd('set spell spelllang=en_us'),
-  vim.api.nvim_set_keymap('i', '<C-l>', '<c-g>u<Esc>[s1z=`]a<c-g>u', {noremap = true}),
-
-
+  
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
@@ -71,11 +65,14 @@ return {
     },
   },
 
-
-  -- This function is run last and is a good place to configuring
+    -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
+    -- Spell checking
+    vim.cmd("set spelllang=en_us")
+    vim.api.nvim_set_keymap('i', '<C-l>', '<c-g>u<Esc>[s1z=`]a<c-g>u', {noremap = true})
+
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {
@@ -90,5 +87,4 @@ return {
     -- }
   end,
 }
-
 

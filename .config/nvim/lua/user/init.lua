@@ -70,7 +70,7 @@ return {
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
     -- Spell checking
-    vim.api.nvim_set_keymap('i', '<C-l>', '<c-g>u<Esc>[s1z=`]a<c-g>u', {noremap = true})
+    -- vim.api.nvim_set_keymap('i', '<C-l>', '<c-g>u<Esc>[s1z=`]a<c-g>u', {noremap = true})
 
     -- Set up custom filetypes
     -- vim.filetype.add {

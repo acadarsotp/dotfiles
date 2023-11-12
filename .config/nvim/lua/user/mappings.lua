@@ -33,6 +33,16 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
+
+  i = {
+    ['<C-l>'] = {
+      function()
+      vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes('<c-g>u<Esc>[s1z=`]a<c-g>u', true, true, true), 'n', true)
+    end,
+    desc = "Ctrl+l to fix last typo",
+    },
+  },
+  
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
